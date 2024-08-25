@@ -1,0 +1,39 @@
+Menotasikan algoritma mencari nilai minimum dan maksimum dari tiga bilangan
+
+Algoritma MencariMinMax(a, b, c)
+
+Input: 
+    a, b, c : integer
+
+Output:
+    min, max : integer
+
+Deklarasi:
+    min, max : integer
+
+Deskripsi:
+    // Inisialisasi min dan max dengan nilai a
+    min ← a
+    max ← a
+
+    // Mencari nilai minimum
+    if b < min then
+        min ← b
+    endif
+    if c < min then
+        min ← c
+    endif
+
+    // Mencari nilai maksimum
+    if b > max then
+        max ← b
+    endif
+    if c > max then
+        max ← c
+    endif
+
+    // Menampilkan hasil
+    output "Nilai minimum:", min
+    output "Nilai maksimum:", max
+
+EndAlgoritma
